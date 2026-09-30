@@ -1,0 +1,76 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: ankane/pgvector:latest
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: guardid
+      POSTGRES_PASSWORD: guardid_dev_password
+      POSTGRES_DB: mcp_guardid
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U guardid -d mcp_guardid"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+
+  mcp-server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.mcp_server
+    restart: unless-stopped
+    environment:
+      MCP_TRANSPORT: streamable-http
+    ports:
+      - "8765:8765"
+
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ENVIRONMENT: production
+      DATABASE_URL: postgresql+asyncpg://guardid:guardid_dev_password@postgres:5432/mcp_guardid
+      # Embeddings stay on the local in-process vector store by default (see
+      # app/rag/vector_store.py); set to "pgvector" once that adapter is
+      # fully implemented against this same Postgres instance.
+      VECTOR_STORE_BACKEND: local
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:-CHANGE_ME_IN_PRODUCTION_ENV}
+      MCP_SERVER_URL: http://mcp-server:8765
+      MCP_CLIENT_MODE: inprocess
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "python -m scripts.seed_database && uvicorn main:app --host 0.0.0.0 --port 8000"
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+      args:
+        NEXT_PUBLIC_API_BASE_URL: http://localhost:8000
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:

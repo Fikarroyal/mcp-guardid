@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+WORKDIR /srv
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONPATH="/srv" \
+    MCP_TRANSPORT=streamable-http
+
+COPY requirements.txt /srv/requirements.txt
+RUN pip install --no-cache-dir -r /srv/requirements.txt
+
+COPY mcp_server /srv/mcp_server
+
+EXPOSE 8765
+
+CMD ["python", "-m", "mcp_server.server"]

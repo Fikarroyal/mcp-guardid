@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0F1524" flood-opacity="0.10"/></filter></defs>
+<rect width="1200" height="330" rx="18" fill="#F7F8FA"/>
+<rect x="24" y="24" width="264" height="282" rx="14" fill="#fff" filter="url(#sh)"/>
+<rect x="24" y="24" width="264" height="62" rx="14" fill="#059669"/>
+<rect x="24" y="60" width="264" height="26" fill="#059669"/>
+<g transform="translate(44,42) scale(1.0833333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
+  <path d="m16 9-5.5 5.5L8 12" /></g>
+<text x="80" y="62" font-size="17" font-weight="800" fill="#fff" letter-spacing="0.6">LOW</text>
+<path d="M298.0,55 L310.0,55 M305.0,49 L311.0,55 L305.0,61" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="44" y="116" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">EXAMPLE TOOLS</text>
+<rect x="44" y="126" width="99.4" height="21" rx="10.5" fill="#E6F6F0"/>
+<text x="53" y="140.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#059669" font-weight="600">ping_device</text>
+<rect x="44" y="152" width="92.0" height="21" rx="10.5" fill="#E6F6F0"/>
+<text x="53" y="166.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#059669" font-weight="600">check_http</text>
+<rect x="44" y="178" width="121.60000000000001" height="21" rx="10.5" fill="#E6F6F0"/>
+<text x="53" y="192.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#059669" font-weight="600">check_database</text>
+<text x="44" y="256" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">RULE</text>
+<text x="44" y="274" font-size="12.5" fill="#161D2E" font-weight="500">Runs immediately</text>
+<text x="44" y="290" font-size="12.5" fill="#161D2E" font-weight="500">when the role allows it</text>
+<rect x="320" y="24" width="264" height="282" rx="14" fill="#fff" filter="url(#sh)"/>
+<rect x="320" y="24" width="264" height="62" rx="14" fill="#D97706"/>
+<rect x="320" y="60" width="264" height="26" fill="#D97706"/>
+<g transform="translate(340,42) scale(1.0833333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
+  <circle cx="12" cy="12" r="3" /></g>
+<text x="376" y="62" font-size="17" font-weight="800" fill="#fff" letter-spacing="0.6">MEDIUM</text>
+<path d="M594.0,55 L606.0,55 M601.0,49 L607.0,55 L601.0,61" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="340" y="116" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">EXAMPLE TOOLS</text>
+<rect x="340" y="126" width="99.4" height="21" rx="10.5" fill="#FEF3E2"/>
+<text x="349" y="140.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#D97706" font-weight="600">search_logs</text>
+<rect x="340" y="152" width="180.8" height="21" rx="10.5" fill="#FEF3E2"/>
+<text x="349" y="166.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#D97706" font-weight="600">query_incident_history</text>
+<text x="340" y="256" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">RULE</text>
+<text x="340" y="274" font-size="12.5" fill="#161D2E" font-weight="500">Runs when the role allows</text>
+<text x="340" y="290" font-size="12.5" fill="#161D2E" font-weight="500">it and the context is valid</text>
+<rect x="616" y="24" width="264" height="282" rx="14" fill="#fff" filter="url(#sh)"/>
+<rect x="616" y="24" width="264" height="62" rx="14" fill="#EA580C"/>
+<rect x="616" y="60" width="264" height="26" fill="#EA580C"/>
+<g transform="translate(636,42) scale(1.0833333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+  <path d="M12 9v4" />
+  <path d="M12 17h.01" /></g>
+<text x="672" y="62" font-size="17" font-weight="800" fill="#fff" letter-spacing="0.6">HIGH</text>
+<path d="M890.0,55 L902.0,55 M897.0,49 L903.0,55 L897.0,61" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="636" y="116" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">EXAMPLE TOOLS</text>
+<rect x="636" y="126" width="136.4" height="21" rx="10.5" fill="#FFF1E8"/>
+<text x="645" y="140.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#EA580C" font-weight="600">restart_database</text>
+<rect x="636" y="152" width="99.4" height="21" rx="10.5" fill="#FFF1E8"/>
+<text x="645" y="166.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#EA580C" font-weight="600">clear_cache</text>
+<text x="636" y="256" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">RULE</text>
+<text x="636" y="274" font-size="12.5" fill="#161D2E" font-weight="500">Always needs an explicit</text>
+<text x="636" y="290" font-size="12.5" fill="#161D2E" font-weight="500">approval record</text>
+<rect x="912" y="24" width="264" height="282" rx="14" fill="#fff" filter="url(#sh)"/>
+<rect x="912" y="24" width="264" height="62" rx="14" fill="#DC2626"/>
+<rect x="912" y="60" width="264" height="26" fill="#DC2626"/>
+<g transform="translate(932,42) scale(1.0833333333333333)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01" />
+  <path d="M12 8v4" />
+  <path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z" /></g>
+<text x="968" y="62" font-size="17" font-weight="800" fill="#fff" letter-spacing="0.6">CRITICAL</text>
+<text x="932" y="116" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">EXAMPLE TOOLS</text>
+<rect x="932" y="126" width="129.0" height="21" rx="10.5" fill="#FDECEC"/>
+<text x="941" y="140.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#DC2626" font-weight="600">delete_database</text>
+<rect x="932" y="152" width="129.0" height="21" rx="10.5" fill="#FDECEC"/>
+<text x="941" y="166.5" font-size="11.5" font-family="ui-monospace, Menlo, Consolas, monospace" fill="#DC2626" font-weight="600">shutdown_server</text>
+<text x="932" y="256" font-size="10.5" font-weight="700" fill="#8A93A6" letter-spacing="0.8">RULE</text>
+<text x="932" y="274" font-size="12.5" fill="#161D2E" font-weight="500">Approval, elevated role</text>
+<text x="932" y="290" font-size="12.5" fill="#161D2E" font-weight="500">and extra verification</text>
+</svg>

@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><filter id="sh" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0F1524" flood-opacity="0.10"/></filter></defs>
+<rect width="1200" height="500" rx="18" fill="#F7F8FA"/>
+<rect x="15" y="14" width="270" height="472" rx="14" fill="#EBEFFD"/>
+<rect x="29" y="26" width="242" height="30" rx="15" fill="#3452E1"/>
+<text x="150.0" y="46" text-anchor="middle" fill="#fff" font-size="13.5" font-weight="700" letter-spacing="0.4">UNDERSTAND</text>
+<path d="M294.0,41 L306.0,41 M301.0,35 L307.0,41 L301.0,47" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="27" y="78" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="27" y="78" width="5" height="88" rx="2.5" fill="#3452E1"/>
+<rect x="45" y="100" width="44" height="44" rx="12" fill="#3452E1"/>
+<g transform="translate(55,110) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" /></g>
+<text x="103" y="108" font-size="14" font-weight="700" fill="#161D2E">Request</text>
+<text x="103" y="128" font-size="11.5" fill="#5B6478">Natural language,</text>
+<text x="103" y="143" font-size="11.5" fill="#5B6478">Indonesian or English</text>
+<circle cx="253" cy="98" r="11" fill="#EBEFFD"/>
+<text x="253" y="102.2" text-anchor="middle" font-size="11" font-weight="700" fill="#3452E1">1</text>
+<path d="M145.0,169 L150.0,175 L155.0,169" stroke="#3452E1" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="27" y="180" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="27" y="180" width="5" height="88" rx="2.5" fill="#3452E1"/>
+<rect x="45" y="202" width="44" height="44" rx="12" fill="#3452E1"/>
+<g transform="translate(55,212) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2" />
+  <path d="M17 3h2a2 2 0 0 1 2 2v2" />
+  <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
+  <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
+  <path d="M7 8h8" />
+  <path d="M7 12h10" />
+  <path d="M7 16h6" /></g>
+<text x="103" y="210" font-size="14" font-weight="700" fill="#161D2E">Intent</text>
+<text x="103" y="230" font-size="11.5" fill="#5B6478">Rules for risky verbs,</text>
+<text x="103" y="245" font-size="11.5" fill="#5B6478">embeddings for the rest</text>
+<circle cx="253" cy="200" r="11" fill="#EBEFFD"/>
+<text x="253" y="204.2" text-anchor="middle" font-size="11" font-weight="700" fill="#3452E1">2</text>
+<path d="M145.0,271 L150.0,277 L155.0,271" stroke="#3452E1" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="27" y="282" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="27" y="282" width="5" height="88" rx="2.5" fill="#3452E1"/>
+<rect x="45" y="304" width="44" height="44" rx="12" fill="#3452E1"/>
+<g transform="translate(55,314) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34" />
+  <path d="M4 6h.01" />
+  <path d="M2.29 9.62A10 10 0 1 0 21.31 8.35" />
+  <path d="M16.24 7.76A6 6 0 1 0 8.23 16.67" />
+  <path d="M12 18h.01" />
+  <path d="M17.99 11.66A6 6 0 0 1 15.77 16.67" />
+  <circle cx="12" cy="12" r="2" />
+  <path d="m13.41 10.59 5.66-5.66" /></g>
+<text x="103" y="312" font-size="14" font-weight="700" fill="#161D2E">Retrieval</text>
+<text x="103" y="332" font-size="11.5" fill="#5B6478">Top K tools from the</text>
+<text x="103" y="347" font-size="11.5" fill="#5B6478">semantic vector index</text>
+<circle cx="253" cy="302" r="11" fill="#EBEFFD"/>
+<text x="253" y="306.2" text-anchor="middle" font-size="11" font-weight="700" fill="#3452E1">3</text>
+<rect x="315" y="14" width="270" height="472" rx="14" fill="#F3EDFE"/>
+<rect x="329" y="26" width="242" height="30" rx="15" fill="#7C3AED"/>
+<text x="450.0" y="46" text-anchor="middle" fill="#fff" font-size="13.5" font-weight="700" letter-spacing="0.4">DECIDE</text>
+<path d="M594.0,41 L606.0,41 M601.0,35 L607.0,41 L601.0,47" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="327" y="78" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="327" y="78" width="5" height="88" rx="2.5" fill="#7C3AED"/>
+<rect x="345" y="100" width="44" height="44" rx="12" fill="#7C3AED"/>
+<g transform="translate(355,110) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+  <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+  <circle cx="9" cy="7" r="4" /></g>
+<text x="403" y="108" font-size="14" font-weight="700" fill="#161D2E">Role and context</text>
+<text x="403" y="128" font-size="11.5" fill="#5B6478">Who is asking and</text>
+<text x="403" y="143" font-size="11.5" fill="#5B6478">which target is meant</text>
+<circle cx="553" cy="98" r="11" fill="#F3EDFE"/>
+<text x="553" y="102.2" text-anchor="middle" font-size="11" font-weight="700" fill="#7C3AED">4</text>
+<path d="M445.0,169 L450.0,175 L455.0,169" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="327" y="180" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="327" y="180" width="5" height="88" rx="2.5" fill="#7C3AED"/>
+<rect x="345" y="202" width="44" height="44" rx="12" fill="#7C3AED"/>
+<g transform="translate(355,212) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4" />
+  <path d="M3.34 19a10 10 0 1 1 17.32 0" /></g>
+<text x="403" y="210" font-size="14" font-weight="700" fill="#161D2E">Risk</text>
+<text x="403" y="230" font-size="11.5" fill="#5B6478">LOW, MEDIUM, HIGH</text>
+<text x="403" y="245" font-size="11.5" fill="#5B6478">or CRITICAL</text>
+<circle cx="553" cy="200" r="11" fill="#F3EDFE"/>
+<text x="553" y="204.2" text-anchor="middle" font-size="11" font-weight="700" fill="#7C3AED">5</text>
+<path d="M445.0,271 L450.0,277 L455.0,271" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="327" y="282" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="327" y="282" width="5" height="88" rx="2.5" fill="#7C3AED"/>
+<rect x="345" y="304" width="44" height="44" rx="12" fill="#7C3AED"/>
+<g transform="translate(355,314) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="16" r="1" />
+  <rect x="3" y="10" width="18" height="12" rx="2" />
+  <path d="M7 10V7a5 5 0 0 1 10 0v3" /></g>
+<text x="403" y="312" font-size="14" font-weight="700" fill="#161D2E">Permission</text>
+<text x="403" y="332" font-size="11.5" fill="#5B6478">Server side RBAC by</text>
+<text x="403" y="347" font-size="11.5" fill="#5B6478">the Policy Engine</text>
+<circle cx="553" cy="302" r="11" fill="#F3EDFE"/>
+<text x="553" y="306.2" text-anchor="middle" font-size="11" font-weight="700" fill="#7C3AED">6</text>
+<path d="M445.0,373 L450.0,379 L455.0,373" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="327" y="384" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="327" y="384" width="5" height="88" rx="2.5" fill="#7C3AED"/>
+<rect x="345" y="406" width="44" height="44" rx="12" fill="#7C3AED"/>
+<g transform="translate(355,416) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 16 4 4 4-4" />
+  <path d="M7 20V4" />
+  <path d="M11 4h10" />
+  <path d="M11 8h7" />
+  <path d="M11 12h4" /></g>
+<text x="403" y="414" font-size="14" font-weight="700" fill="#161D2E">Ranking</text>
+<text x="403" y="434" font-size="11.5" fill="#5B6478">FinalScore from six</text>
+<text x="403" y="449" font-size="11.5" fill="#5B6478">weighted signals</text>
+<circle cx="553" cy="404" r="11" fill="#F3EDFE"/>
+<text x="553" y="408.2" text-anchor="middle" font-size="11" font-weight="700" fill="#7C3AED">7</text>
+<rect x="615" y="14" width="270" height="472" rx="14" fill="#FFF1E8"/>
+<rect x="629" y="26" width="242" height="30" rx="15" fill="#EA580C"/>
+<text x="750.0" y="46" text-anchor="middle" fill="#fff" font-size="13.5" font-weight="700" letter-spacing="0.4">ACT</text>
+<path d="M894.0,41 L906.0,41 M901.0,35 L907.0,41 L901.0,47" stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="627" y="78" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="627" y="78" width="5" height="88" rx="2.5" fill="#EA580C"/>
+<rect x="645" y="100" width="44" height="44" rx="12" fill="#EA580C"/>
+<g transform="translate(655,110) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+  <path d="m16 9-5.5 5.5L8 12" /></g>
+<text x="703" y="108" font-size="14" font-weight="700" fill="#161D2E">Approval gate</text>
+<text x="703" y="128" font-size="11.5" fill="#5B6478">HIGH and CRITICAL wait</text>
+<text x="703" y="143" font-size="11.5" fill="#5B6478">for a human decision</text>
+<circle cx="853" cy="98" r="11" fill="#FFF1E8"/>
+<text x="853" y="102.2" text-anchor="middle" font-size="11" font-weight="700" fill="#EA580C">8</text>
+<path d="M745.0,169 L750.0,175 L755.0,169" stroke="#EA580C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="627" y="180" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="627" y="180" width="5" height="88" rx="2.5" fill="#EA580C"/>
+<rect x="645" y="202" width="44" height="44" rx="12" fill="#EA580C"/>
+<g transform="translate(655,212) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.852 14.772-.383.923" />
+  <path d="M13.148 14.772a3 3 0 1 0-2.296-5.544l-.383-.923" />
+  <path d="m13.148 9.228.383-.923" />
+  <path d="m13.53 15.696-.382-.924a3 3 0 1 1-2.296-5.544" />
+  <path d="m14.772 10.852.923-.383" />
+  <path d="m14.772 13.148.923.383" />
+  <path d="M4.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5" />
+  <path d="M4.5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-.5" />
+  <path d="M6 18h.01" />
+  <path d="M6 6h.01" />
+  <path d="m9.228 10.852-.923-.383" />
+  <path d="m9.228 13.148-.923.383" /></g>
+<text x="703" y="210" font-size="14" font-weight="700" fill="#161D2E">Execution</text>
+<text x="703" y="230" font-size="11.5" fill="#5B6478">MCP Gateway with schema</text>
+<text x="703" y="245" font-size="11.5" fill="#5B6478">check and timeout</text>
+<circle cx="853" cy="200" r="11" fill="#FFF1E8"/>
+<text x="853" y="204.2" text-anchor="middle" font-size="11" font-weight="700" fill="#EA580C">9</text>
+<path d="M745.0,271 L750.0,277 L755.0,271" stroke="#EA580C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="627" y="282" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="627" y="282" width="5" height="88" rx="2.5" fill="#EA580C"/>
+<rect x="645" y="304" width="44" height="44" rx="12" fill="#EA580C"/>
+<g transform="translate(655,314) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+  <path d="M12 11h4" />
+  <path d="M12 16h4" />
+  <path d="M8 11h.01" />
+  <path d="M8 16h.01" /></g>
+<text x="703" y="312" font-size="14" font-weight="700" fill="#161D2E">Evidence</text>
+<text x="703" y="332" font-size="11.5" fill="#5B6478">Every result gets an</text>
+<text x="703" y="347" font-size="11.5" fill="#5B6478">execution ID</text>
+<circle cx="853" cy="302" r="11" fill="#FFF1E8"/>
+<text x="853" y="306.2" text-anchor="middle" font-size="11" font-weight="700" fill="#EA580C">10</text>
+<rect x="915" y="14" width="270" height="472" rx="14" fill="#E6F6F0"/>
+<rect x="929" y="26" width="242" height="30" rx="15" fill="#059669"/>
+<text x="1050.0" y="46" text-anchor="middle" fill="#fff" font-size="13.5" font-weight="700" letter-spacing="0.4">VERIFY AND RECORD</text>
+<rect x="927" y="78" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="927" y="78" width="5" height="88" rx="2.5" fill="#059669"/>
+<rect x="945" y="100" width="44" height="44" rx="12" fill="#059669"/>
+<g transform="translate(955,110) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+  <path d="m9 12 2 2 4-4" /></g>
+<text x="1003" y="108" font-size="14" font-weight="700" fill="#161D2E">Verifier</text>
+<text x="1003" y="128" font-size="11.5" fill="#5B6478">Evidence, injection and</text>
+<text x="1003" y="143" font-size="11.5" fill="#5B6478">policy checks</text>
+<circle cx="1153" cy="98" r="11" fill="#E6F6F0"/>
+<text x="1153" y="102.2" text-anchor="middle" font-size="11" font-weight="700" fill="#059669">11</text>
+<path d="M1045.0,169 L1050.0,175 L1055.0,169" stroke="#059669" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="927" y="180" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="927" y="180" width="5" height="88" rx="2.5" fill="#059669"/>
+<rect x="945" y="202" width="44" height="44" rx="12" fill="#059669"/>
+<g transform="translate(955,212) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" />
+  <path d="M7 11h10" />
+  <path d="M7 15h6" />
+  <path d="M7 7h8" /></g>
+<text x="1003" y="210" font-size="14" font-weight="700" fill="#161D2E">Answer</text>
+<text x="1003" y="230" font-size="11.5" fill="#5B6478">Written only from the</text>
+<text x="1003" y="245" font-size="11.5" fill="#5B6478">collected evidence</text>
+<circle cx="1153" cy="200" r="11" fill="#E6F6F0"/>
+<text x="1153" y="204.2" text-anchor="middle" font-size="11" font-weight="700" fill="#059669">12</text>
+<path d="M1045.0,271 L1050.0,277 L1055.0,271" stroke="#059669" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+<rect x="927" y="282" width="246" height="88" rx="12" fill="#fff" filter="url(#sh)"/>
+<rect x="927" y="282" width="5" height="88" rx="2.5" fill="#059669"/>
+<rect x="945" y="304" width="44" height="44" rx="12" fill="#059669"/>
+<g transform="translate(955,314) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 12h-5" />
+  <path d="M15 8h-5" />
+  <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+  <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" /></g>
+<text x="1003" y="312" font-size="14" font-weight="700" fill="#161D2E">Audit trail</text>
+<text x="1003" y="332" font-size="11.5" fill="#5B6478">Immutable record of</text>
+<text x="1003" y="347" font-size="11.5" fill="#5B6478">every step</text>
+<circle cx="1153" cy="302" r="11" fill="#E6F6F0"/>
+<text x="1153" y="306.2" text-anchor="middle" font-size="11" font-weight="700" fill="#059669">13</text>
+</svg>

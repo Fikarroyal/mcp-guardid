@@ -359,9 +359,3 @@ The evaluation measures intent accuracy, top 1 tool accuracy, top 3 recall, risk
 * Redis caching for embeddings and retrieval.
 * Editable incidents and SOP documents from the console.
 * Fine tuned intent and risk models trained at full dataset scale.
-
-<br>
-
-<div align="center">
-<sub>Icons by <a href="https://lucide.dev">Lucide</a>, ISC license. Rebuild the diagrams with <code>python docs/build_diagrams.py</code>.</sub>
-</div>

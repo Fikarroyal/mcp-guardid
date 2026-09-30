@@ -1,0 +1,28 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+SQLAlchemy>=2.0,<3.0
+pydantic>=2.9,<3.0
+pydantic-settings>=2.5
+python-jose>=3.3
+passlib>=1.7
+bcrypt>=4.0
+python-multipart>=0.0.9
+scikit-learn>=1.4,<2.0
+numpy>=1.26,<3.0
+anthropic>=0.34
+httpx>=0.27
+pytest>=8.0
+pytest-asyncio>=0.24
+aiosqlite>=0.20
+email-validator>=2.0
+# IMPORTANT: pin the major version -- mcp 1.x has a completely different API
+# (FastMCP) from mcp 2.x (MCPServer, used throughout this codebase).
+mcp>=2.0,<3.0
+asyncpg>=0.29
+
+# --- Production-only extras (uncomment when the corresponding adapter is
+#     fully wired -- see app/rag/vector_store.py for the implementation
+#     contract each one fulfils) ---
+# pgvector             # PostgreSQL vector extension bindings (VECTOR_STORE_BACKEND=pgvector)
+# qdrant-client        # VECTOR_STORE_BACKEND=qdrant
+# redis                # caching layer once REDIS_URL is wired into a service

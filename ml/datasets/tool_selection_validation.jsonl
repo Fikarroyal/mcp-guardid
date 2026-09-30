@@ -1,0 +1,204 @@
+{"input": "shut down server monitoring server", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "aplikasi e-commerce pernah bermasalah sebelumnya?", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "server DNS internal tidak bisa diakses", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "kenapa server produksi lambat?", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "hostname production server tidak ditemukan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "cek status server DNS internal", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "kenapa server DNS internal lambat?", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "dokumentasi database transaksi", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "sop untuk maintenance aplikasi e-commerce", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "aplikasi e-commerce lemot banget", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "system health check untuk sistem pembayaran", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "koneksi database website rumah sakit gagal", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "tolong restart db portal karyawan", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "update configuration situs internal", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "cek kenapa aplikasi e-commerce lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "incident history for database transaksi", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "sertifikat ssl hospital website", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "bersihkan cache sistem inventory", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "aplikasi e-commerce metrics", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "system health check untuk database transaksi", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "ping ke server DNS internal tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "sop untuk maintenance situs internal", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "check database health for situs pemerintah", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "production server not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "certificate expired for database transaksi", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "modify firewall rules on server DNS internal", "output": ["modify_firewall"], "intent": "modify_firewall"}
+{"input": "https server monitoring tidak aman", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "tolong cek situs pemerintah kenapa lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cek status database untuk aplikasi kesehatan", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "update configuration aplikasi mobile banking", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "database pelanggan down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "system health check untuk portal karyawan", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "dokumentasi sistem pembayaran", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "tolong restart db sistem pembayaran", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "restart database website rumah sakit sekarang", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "cek status database untuk server monitoring", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "cek kesehatan database portal karyawan", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "database pelanggan is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "ubah firewall untuk aplikasi kesehatan", "output": ["modify_firewall"], "intent": "modify_firewall"}
+{"input": "hapus data produksi server produksi", "output": ["delete_production_data"], "intent": "delete_production_data"}
+{"input": "why is server email down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "koneksi ke sistem inventory lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "network congestion di server monitoring", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "cek kesehatan database server monitoring", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "cek status database pelanggan", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "database pelanggan lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "latency aplikasi e-commerce tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "check why server email is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "tolong restart db website perusahaan", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "incident history for website perusahaan", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "cek kondisi database transaksi", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "tolong restart db server DNS internal", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "situs internal loading lama", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "shut down situs pemerintah server", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "website rumah sakit not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "packet loss pada server DNS internal", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "ubah konfigurasi server produksi", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "server backup pernah bermasalah sebelumnya?", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "latency sistem inventory tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "hostname sistem inventory tidak ditemukan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "incident history for sistem inventory", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "aplikasi e-commerce not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "hapus cache untuk hospital website", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "restart the service on hospital website", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "certificate expired for portal karyawan", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "kenapa sistem pembayaran lambat?", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "sop untuk maintenance database pelanggan", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "check database health for sistem inventory", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "website rumah sakit tidak bisa diakses", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "database pelanggan not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "shut down production server server", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "system health check untuk server produksi", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "update configuration server email", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "delete production data for website rumah sakit", "output": ["delete_production_data"], "intent": "delete_production_data"}
+{"input": "check why production server is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "shutdown the server for database pelanggan", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "hapus database sistem inventory", "output": ["delete_database"], "intent": "delete_database"}
+{"input": "latency portal karyawan tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "dns resolution failure pada hospital website", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "website rumah sakit pernah bermasalah sebelumnya?", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "dns resolution failure pada portal karyawan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "koneksi ke database transaksi lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "high latency to server email", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "delete production data for server produksi", "output": ["delete_production_data"], "intent": "delete_production_data"}
+{"input": "aplikasi kesehatan tidak bisa diakses", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "check why server monitoring is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "modify firewall rules on situs pemerintah", "output": ["modify_firewall"], "intent": "modify_firewall"}
+{"input": "cek status database untuk server backup", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "check why situs pemerintah is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "https server produksi tidak aman", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "website perusahaan down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cek sertifikat database pelanggan", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "drop database aplikasi mobile banking", "output": ["delete_database"], "intent": "delete_database"}
+{"input": "shutdown the server for aplikasi mobile banking", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "koneksi ke situs pemerintah lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "cari incident serupa untuk sistem inventory", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "network congestion di database pelanggan", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "bersihkan cache server email", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "database pelanggan pernah bermasalah sebelumnya?", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "check database health for aplikasi mobile banking", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "clear cache production server", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "restart the service on aplikasi kesehatan", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "dns resolution failure pada sistem pembayaran", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "server email is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "situs pemerintah lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "restart database situs internal sekarang", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "why is website perusahaan down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "server email down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "bersihkan cache customer database", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "restart the database for server backup", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "cek sertifikat server produksi", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "cek status database untuk aplikasi mobile banking", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "shut down aplikasi e-commerce server", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "matikan server server produksi", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "network congestion di website perusahaan", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "https production server tidak aman", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "gagal resolve domain hospital website", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "latency customer database tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "certificate expired for customer database", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "cek status aplikasi mobile banking", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "tolong cek aplikasi e-commerce kenapa lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "situs internal not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "latency aplikasi mobile banking tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "cek kesehatan database website rumah sakit", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "prosedur troubleshooting server DNS internal", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "koneksi ke website rumah sakit lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "why is sistem pembayaran down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "check why sistem pembayaran is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "dns website rumah sakit tidak resolve", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "check why aplikasi e-commerce is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "clear cache website rumah sakit", "output": ["clear_cache"], "intent": "clear_cache"}
+{"input": "check why customer database is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cek kesehatan database sistem pembayaran", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "restart service database transaksi sekarang", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "tolong restart db aplikasi kesehatan", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "production server is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "customer database not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "certificate expired for production server", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "matikan server database pelanggan", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "tolong cek customer database kenapa lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "dns aplikasi e-commerce tidak resolve", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "certificate expired for website perusahaan", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "gagal resolve domain website perusahaan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "cek status database untuk sistem pembayaran", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "restart service server backup sekarang", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "hapus database hospital website", "output": ["delete_database"], "intent": "delete_database"}
+{"input": "network congestion di situs pemerintah", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "tolong restart db database pelanggan", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "ping ke portal karyawan tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "prosedur troubleshooting situs internal", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "website rumah sakit down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cari incident serupa untuk server monitoring", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "database aplikasi e-commerce lambat merespon", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "hapus database website rumah sakit", "output": ["delete_database"], "intent": "delete_database"}
+{"input": "shutdown the server for database transaksi", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "hostname sistem pembayaran tidak ditemukan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "restart the service on website perusahaan", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "ubah konfigurasi situs pemerintah", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "prosedur troubleshooting situs pemerintah", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "koneksi database sistem inventory gagal", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "packet loss pada website rumah sakit", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "delete production data for server email", "output": ["delete_production_data"], "intent": "delete_production_data"}
+{"input": "server produksi is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "modify config for server produksi", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "why is production server down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "check why database transaksi is slow", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "database transaksi metrics", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "server email lemot banget", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "koneksi ke server backup lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "restart database customer database sekarang", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "modify config for situs pemerintah", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "koneksi database server monitoring gagal", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "matikan server situs internal", "output": ["shutdown_server"], "intent": "shutdown_server"}
+{"input": "cek kesehatan database situs internal", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "cek status server monitoring", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "ubah firewall untuk database transaksi", "output": ["modify_firewall"], "intent": "modify_firewall"}
+{"input": "modify config for sistem inventory", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "hostname server produksi tidak ditemukan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "high latency to aplikasi mobile banking", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "why is aplikasi kesehatan down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cek sertifikat aplikasi kesehatan", "output": ["check_ssl", "check_certificate"], "intent": "ssl_certificate"}
+{"input": "dokumentasi sistem inventory", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "portal karyawan down", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "database transaksi not responding", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "cek kenapa customer database lambat", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "restart database server email sekarang", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "system health check untuk website rumah sakit", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "situs internal metrics", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "riwayat insiden situs internal", "output": ["query_incident_history", "search_sop"], "intent": "incident_lookup"}
+{"input": "cek status portal karyawan", "output": ["check_server_status", "get_system_metrics", "get_process_status"], "intent": "general_diagnostics"}
+{"input": "modify firewall rules on server monitoring", "output": ["modify_firewall"], "intent": "modify_firewall"}
+{"input": "kenapa database transaksi lambat?", "output": ["check_http", "check_server", "get_cpu_usage", "get_memory_usage", "check_dns", "search_logs"], "intent": "website_performance"}
+{"input": "dns lookup failed for website perusahaan", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "dokumentasi situs pemerintah", "output": ["search_sop"], "intent": "sop_lookup"}
+{"input": "update configuration server DNS internal", "output": ["modify_configuration"], "intent": "modify_configuration"}
+{"input": "high latency to server produksi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "restart database database transaksi sekarang", "output": ["restart_database"], "intent": "restart_database"}
+{"input": "koneksi database aplikasi mobile banking gagal", "output": ["check_database", "get_database_metrics", "query_database_readonly", "search_logs"], "intent": "database_health"}
+{"input": "delete the database for situs internal", "output": ["delete_database"], "intent": "delete_database"}
+{"input": "gagal resolve domain sistem pembayaran", "output": ["check_dns", "ping_device"], "intent": "dns_issue"}
+{"input": "restart the service on aplikasi mobile banking", "output": ["restart_service"], "intent": "restart_service"}
+{"input": "latency server DNS internal tinggi", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "koneksi ke website perusahaan lambat", "output": ["get_network_latency", "ping_device", "check_port"], "intent": "network_latency"}
+{"input": "clear cache aplikasi mobile banking", "output": ["clear_cache"], "intent": "clear_cache"}

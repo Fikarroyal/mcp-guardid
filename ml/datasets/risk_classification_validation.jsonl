@@ -1,0 +1,103 @@
+{"input": "server produksi tidak bisa diakses", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "koneksi database website perusahaan gagal", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "https situs internal tidak aman", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "ssl warning pada hospital website", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "incident history for website perusahaan", "output": {"risk_level": "MEDIUM", "requires_approval": false}}
+{"input": "restart service database transaksi sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "drop database server produksi", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "matikan server sistem inventory", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "https aplikasi mobile banking tidak aman", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "hapus cache untuk website rumah sakit", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "drop database hospital website", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "koneksi database hospital website gagal", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "dns server backup tidak resolve", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "website rumah sakit lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart the database for server backup", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "server backup tidak bisa diakses", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart the database for sistem pembayaran", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "hostname website rumah sakit tidak ditemukan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "cek status aplikasi mobile banking", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "cari incident serupa untuk website rumah sakit", "output": {"risk_level": "MEDIUM", "requires_approval": false}}
+{"input": "ubah firewall untuk website perusahaan", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "restart database server email sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "koneksi ke aplikasi mobile banking lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "ssl warning pada website perusahaan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "dns website perusahaan tidak resolve", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "network congestion di situs internal", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "delete the database for sistem inventory", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "shutdown the server for website rumah sakit", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "restart the database for database pelanggan", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "bersihkan cache situs pemerintah", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "ssl warning pada website rumah sakit", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "update configuration database transaksi", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "delete the database for aplikasi mobile banking", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "clear cache website perusahaan", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "cek kenapa server backup lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "server produksi lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "ping ke website perusahaan tinggi", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "ssl warning pada database pelanggan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "shutdown the server for situs internal", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "modify config for production server", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "sertifikat ssl hospital website", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "delete production data for database transaksi", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "sertifikat ssl server backup", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "hapus cache untuk database transaksi", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "koneksi database database pelanggan gagal", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "bersihkan cache database pelanggan", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "bersihkan cache server produksi", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "restart service database pelanggan sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "situs internal database timeout", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart service pada customer database", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "dokumentasi website perusahaan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "hapus database server produksi", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "tolong restart db server monitoring", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "drop database website perusahaan", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "shut down aplikasi mobile banking server", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "modify firewall rules on server backup", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "cek kondisi server produksi", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart the database for situs internal", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "cek status database untuk hospital website", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "shutdown the server for portal karyawan", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "restart database website rumah sakit sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "clear cache server DNS internal", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "ubah firewall untuk sistem pembayaran", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "sertifikat ssl website perusahaan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "cek status server produksi", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "koneksi ke situs internal lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "shut down website perusahaan server", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "restart service pada database transaksi", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "gagal resolve domain database pelanggan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "update configuration website rumah sakit", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "dns server produksi tidak resolve", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "https database pelanggan tidak aman", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart database website perusahaan sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "riwayat insiden server backup", "output": {"risk_level": "MEDIUM", "requires_approval": false}}
+{"input": "bersihkan cache aplikasi e-commerce", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "kenapa website perusahaan lambat?", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "sop untuk maintenance website perusahaan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "cek status hospital website", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "dokumentasi hospital website", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "incident history for database pelanggan", "output": {"risk_level": "MEDIUM", "requires_approval": false}}
+{"input": "dokumentasi server produksi", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "restart service pada server monitoring", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "tolong restart db database pelanggan", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "drop database server backup", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "koneksi ke website perusahaan lambat", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "check database health for website perusahaan", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "ubah firewall untuk server DNS internal", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "ubah firewall untuk situs pemerintah", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "restart the service on website perusahaan", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "cek kondisi website rumah sakit", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "system health check untuk website rumah sakit", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "clear cache server email", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "restart service situs pemerintah sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "restart database database transaksi sekarang", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "restart service pada sistem pembayaran", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "dns resolution failure pada website rumah sakit", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "dns resolution failure pada aplikasi mobile banking", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "clear cache hospital website", "output": {"risk_level": "HIGH", "requires_approval": true}}
+{"input": "riwayat insiden website perusahaan", "output": {"risk_level": "MEDIUM", "requires_approval": false}}
+{"input": "dokumentasi website rumah sakit", "output": {"risk_level": "LOW", "requires_approval": false}}
+{"input": "hapus data produksi aplikasi mobile banking", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "hapus data produksi server monitoring", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
+{"input": "drop database customer database", "output": {"risk_level": "CRITICAL", "requires_approval": true}}
